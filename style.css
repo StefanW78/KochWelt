@@ -35,12 +35,41 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 100;
+  margin: 0;
 }
 
-.header {
+#header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6px;
+    box-shadow: 0px 4px 8px #888888;
+    
 }
+.linksItems {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+    text-decoration: none;
+}
+
 .link {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
 }
+.link:hover {
+  color: green;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
+}
+
+.recipeOfTheDay {
+    background-color: white;
+    height: 200px;
+}
+
 .button {
 }
 .image {
