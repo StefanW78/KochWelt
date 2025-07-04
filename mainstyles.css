@@ -1,49 +1,15 @@
-/* raleway-100 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 100;
-  src: url("./fonts/raleway-v36-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* raleway-200 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 200;
-  src: url("./fonts/raleway-v36-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* raleway-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./fonts/raleway-v36-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* raleway-900 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 900;
-  src: url("./fonts/raleway-v36-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-
 /* Sets predefined browser margins to zero. */
 * {                             
     margin: 0;
     padding: 0;
 }
 
-/* body {
+body {
     background-color: white;
     max-width: 1440px;
     font-family: "Raleway", sans-serif;
     color: black;
-} */
+}
 
 /* Headline for recipe pages, imprint, and privacy policy. */
 h1 {
@@ -73,20 +39,20 @@ p {
 }
 
 /* Links */
-/* a {
+a {
     font-size: 16px;
     font-weight: bold;
     color: black;
     text-decoration: none;
-} */
+}
 
-/* a:hover {
+a:hover {
     font-size: 16px;
     font-weight: bold;
     color:#008000; 
     border-bottom: #008000;
     text-decoration: underline;
-} */
+}
 
 button {
     background-color: #008000;
@@ -113,14 +79,14 @@ button:hover {
 }
 
 /* Headerarea stays sticky at the top. */
-/* header {
+header {
     background-color: white;
     height: 80px;
     position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.2)
-} */
+}
 
 /* The following 2 commands permanently lower the footer: vh-height minus footer and header height. */
 main {
@@ -130,4 +96,59 @@ main {
 footer {
     background-color: #403b3b;
     height: 80px;
+}
+
+
+
+
+
+
+
+
+/* Contact page */
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    width: 450px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    border: none;
+}
+
+input {
+    background-color: white;
+    border: 0px solid;
+    height: 28px;
+    width: 400px;
+}
+
+textarea {
+    background-color: white;
+    border: 0px solid;
+    height: 88px;
+    width: 400px;
+}
+
+.mainPosition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contactFormButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px !important;
 }

@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mainstyles.css">
     <link rel="stylesheet" href="mobile.css">
-    <link rel="icon" href="./img/logo_small.png" />
-    
+
     <title>Kontakt</title>
 </head>
 <body>
-     <header class="header">
-        <div class="logoNormal">
-          <img src="./img/logo.png" alt="Kochlogo" />
-        </div>
-        <div class="linksItems">
-          <a href="index.html" class="link">Start</a>
-          <a href="rezept-1.html" class="link">Rezept des Tages</a>
-          <a href="kontakt.html" class="link">Kontakt</a>
-          <a href="impressum.html" class="link">Impressum</a>
-        </div>
+    <header class="header">
+      <div class="logoNormal">
+        <a href="index.html" class="link"
+          ><img src="./img/logo.png" alt="Kochlogo"
+        /></a>
+      </div>
+      <div class="linksItems">
+        <a href="index.html" class="link">Start</a>
+        <a href="rezept-1.html" class="link">Rezept des Tages</a>
+        <a href="kontakt.html" class="link">Kontakt</a>
+        <a href="impressum.html" class="link">Impressum</a>
+      </div>
     </header>
-    Kontaktseite
+    <main class="mainPosition">
+        <div class="contactContainer">
+            <form class="contactForm" action="/submit-form" method="POST">
+                <h2>Kontaktiere uns</h2>
+
+                <label for="name">Dein Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Deine E-Mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Deine Nachricht:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <button class="contactFormButton" type="submit">Abschicken</button>
+            </form>
+        </div>
+    </main>
+
+    <Footer>
+        <img src="./img/logoWhite.png" alt="Logo white" />
+
+    </Footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
