@@ -97,3 +97,58 @@ footer {
     background-color: #403b3b;
     height: 80px;
 }
+
+
+
+
+
+
+
+
+/* Contact page */
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    width: 450px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    border: none;
+}
+
+input {
+    background-color: white;
+    border: 0px solid;
+    height: 28px;
+    width: 400px;
+}
+
+textarea {
+    background-color: white;
+    border: 0px solid;
+    height: 88px;
+    width: 400px;
+}
+
+.mainPosition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contactFormButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px !important;
+}
