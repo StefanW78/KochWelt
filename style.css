@@ -144,7 +144,10 @@
 }
 
 body {
-    font-family: ;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100;
+  margin: 0;
 }
 
 .header {
@@ -156,7 +159,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-  
     
 }
 .linksItems {
@@ -200,12 +202,12 @@ body {
 
 .image {
 }
-.bg-gray{
-    background-color: gray;
+
+.bg-gray {
+  background-color: gray;
 }
 
 .footer {
   background-color: rgb(64, 59, 59, 1);
   height: 200px;
 }
-
