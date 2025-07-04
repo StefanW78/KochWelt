@@ -307,3 +307,9 @@ textarea {
     align-items: center;
     width: 160px !important;
 }
+
+/* Email type after sending a message with the contact formular. */
+.sendMailText {
+    text-align: center;
+    padding-top: 300px;;
+}
