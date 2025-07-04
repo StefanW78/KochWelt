@@ -181,8 +181,14 @@ h3 {
 
 /* For continuous texts. */
 p {
+    font-family: raleway-regular;
     font-size: 16px;
-    font-weight: regular;
+}
+
+/* For lists. */
+li {
+    font-family: raleway-regular;
+    font-size: 16px;
 }
 
 /* Links */
@@ -269,7 +275,7 @@ footer {
 }
 
 label {
-  font-weight: regular;
+    font-family: raleway-regular;
 }
 
 input {
@@ -277,6 +283,17 @@ input {
     border: 0px solid;
     height: 28px;
     width: 400px;
+}
+
+.inputType {
+    font-family: raleway-regular;
+    padding-left: 10px;
+}
+
+.inputMessage {
+    font-family: raleway-regular;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 textarea {
@@ -311,5 +328,7 @@ textarea {
 /* Email type after sending a message with the contact formular. */
 .sendMailText {
     text-align: center;
-    padding-top: 300px;;
+    padding-top: 200px;;
 }
+
+/*Padding Impressum and Datenschutz */
