@@ -1,0 +1,99 @@
+/* Sets predefined browser margins to zero. */
+* {                             
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    max-width: 1440px;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+/* Headline for recipe pages, imprint, and privacy policy. */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+/* Headline for index page. */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+/* Subheading in continuous text, e.g. imprint. */
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+/* For continuous texts. */
+p {
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 16px;
+    font-weight: bold;
+    color:#008000; 
+    border-bottom: #008000;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #008000;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f8f0f;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Headerarea stays sticky at the top. */
+header {
+    background-color: white;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.2)
+}
+
+/* The following 2 commands permanently lower the footer: vh-height minus footer and header height. */
+main {
+    min-height: calc(100vh - 160px);
+}
+
+footer {
+    background-color: #403b3b;
+    height: 80px;
+}
