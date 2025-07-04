@@ -38,11 +38,11 @@ body {
   margin: 0;
 }
 
-#header {
+.header {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     box-shadow: 0px 4px 8px #888888;
     
 }
@@ -62,7 +62,7 @@ body {
   color: green;
   text-decoration: underline;
   text-decoration-thickness: 5px;
-  text-underline-offset: 5px;
+  text-underline-offset: 10px;
 }
 
 .recipeOfTheDay {

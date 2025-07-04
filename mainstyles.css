@@ -38,12 +38,12 @@
     padding: 0;
 }
 
-body {
+/* body {
     background-color: white;
     max-width: 1440px;
     font-family: "Raleway", sans-serif;
     color: black;
-}
+} */
 
 /* Headline for recipe pages, imprint, and privacy policy. */
 h1 {
@@ -73,20 +73,20 @@ p {
 }
 
 /* Links */
-a {
+/* a {
     font-size: 16px;
     font-weight: bold;
     color: black;
     text-decoration: none;
-}
+} */
 
-a:hover {
+/* a:hover {
     font-size: 16px;
     font-weight: bold;
     color:#008000; 
     border-bottom: #008000;
     text-decoration: underline;
-}
+} */
 
 button {
     background-color: #008000;
@@ -113,14 +113,14 @@ button:hover {
 }
 
 /* Headerarea stays sticky at the top. */
-header {
+/* header {
     background-color: white;
     height: 80px;
     position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.2)
-}
+} */
 
 /* The following 2 commands permanently lower the footer: vh-height minus footer and header height. */
 main {
