@@ -66,8 +66,20 @@ body {
 }
 
 .recipeOfTheDay {
-    background-color: white;
     height: 200px;
+    border: 1px solid; /* only for dev */
+}
+
+.somethingNew{
+  background-color: rgb(239, 239, 239, 1);
+  height: 400px;
+
+}
+
+.equipmentAdvice{
+  height: 400px;
+  border: 1px solid; /* only for dev */
+
 }
 
 .button {
@@ -78,4 +90,6 @@ body {
   background-color: gray;
 }
 .footer {
+  background-color: rgb(64, 59, 59, 1);
+  height: 200px;
 }
