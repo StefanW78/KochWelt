@@ -12,9 +12,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="logoNormal">
+      <div>
         <a href="index.html" class="link"
-          ><img src="./img/logo.png" alt="Kochlogo"
+          ><img class="logoNormal" src="./img/logo.png" alt="Kochlogo"
         /></a>
       </div>
       <div class="linksItems">
@@ -23,14 +23,104 @@
         <a href="kontakt.html" class="link">Kontakt</a>
         <a href="impressum.html" class="link">Impressum</a>
       </div>
+
+      <header class="responsiveHeader" onclick="toggleRespMenu()">
+        <div class="burgerStripes"></div>
+        <div class="burgerStripes"></div>
+        <div class="burgerStripes"></div>
+      </header>
+      <div
+        id="resp_menu"
+        class="resp_menu_box resp_menu_closed responsiveHeader"
+      >
+        <button onclick="toggleRespMenu()">close menu</button>
+        <a href="index.html" class="link">Start</a>
+        <a href="rezept-1.html" class="link">Rezept des Tages</a>
+        <a href="kontakt.html" class="link">Kontakt</a>
+        <a href="impressum.html" class="link">Impressum</a>
+      </div>
     </header>
 
-    <section class="recipeOfTheDay"></section>
-    <section class="somethingNew"></section>
-    <section class="equipmentAdvice"></section>
-    <footer class="footer">
-    </footer>
+    <section class="recipeOfTheDay">
+      <div>
+        <a href="rezept-1.html"
+          ><img
+            class="recipePic"
+            src="./img/croissant.jpg"
+            alt="croissant Picture"
+        /></a>
+      </div>
+      <div class="recipeOfTheDayDescription">
+        <h3 class="recipeOfTheDayHeadline">Französiche Croissants</h3>
+        <p class="recipeOfTheDayText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa,
+          deleniti unde impedit dolorem minima accusantium sunt rerum,
+          praesentium quos in odio qui nulla, ipsum placeat cupiditate?
+          Voluptatibus, accusamus nemo?
+        </p>
+        <button class="openRecipeButton">
+          <p class="buttonText">Rezept</p>
+          <p class="buttonText">öffnen</p>
+        </button>
+      </div>
+    </section>
+
+    <section class="somethingNew">
+      <div>
+        <h2 class="somethingNewHeadline">Lust auf was Neues?</h2>
+      </div>
+      <div class="recipeProposals">
+        <div class="recipeProposal">
+          <a href="rezept-1.html"
+            ><img
+              class="recipeProposalPic"
+              src="./img/croissant.jpg"
+              alt="roissant Picture"
+          /></a>
+          <p class="recipeText">Frische Croissants</p>
+        </div>
+        <div class="recipeProposal">
+          <a href="rezept-1.html"
+            ><img
+              class="recipeProposalPic"
+              src="./img/croissant.jpg"
+              alt="roissant Picture"
+          /></a>
+          <p class="recipeText">Frische Croissants</p>
+        </div>
+        <div class="recipeProposal">
+          <a href="rezept-1.html">
+            <img
+              class="recipeProposalPic"
+              src="./img/croissant.jpg"
+              alt="roissant Picture"
+          /></a>
+          <p class="recipeText">Frische Croissants</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="equipmentAdvice">
+      <div>
+        <h2 class="equipmentHeadline">Pfanne vs. Wok - Was ist besser?</h2>
+      </div>
+      <div class="equimentDescription">
+        <div class="equuipmentText">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa,
+            deleniti unde impedit dolorem minima accusantium sunt rerum,
+            praesentium quos in odio qui nulla, ipsum placeat cupiditate?
+            Voluptatibus, accusamus nemo?
+          </p>
+        </div>
+        <div class="equipemntPicDiv">
+          <img class="equipmentPic" src="./img/wok.jpg" alt="Wok Picture" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer"></footer>
 
     <script src="script.js"></script>
+    <script src="script3.js"></script>
   </body>
 </html>
