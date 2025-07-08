@@ -1,4 +1,3 @@
-
 /* Contact form*/
 function sendMail(event){
     event.preventDefault();
@@ -15,4 +14,9 @@ function sendMail(event){
     }).catch((error) => {
         console.log(error);
     });
+}
+
+/* Burger menu*/
+function toggleRespMenu() {
+    document.getElementById("resp_menu").classList.toggle("resp_menu_closed");
 }

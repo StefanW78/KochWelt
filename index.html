@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="mobile.css" />
     <link rel="icon" href="./img/logo_small.png" />
     <title>Kochwelt</title>
-    <!--  fonts offline embedden, style.css and folder fonts-->
+
   </head>
   <body>
     <header class="header">
@@ -33,7 +33,7 @@
         id="resp_menu"
         class="resp_menu_box resp_menu_closed responsiveHeader"
       >
-        <button onclick="toggleRespMenu()">close menu</button>
+        <button id="closeMenuButton" onclick="toggleRespMenu()">close menu</button>
         <a href="index.html" class="link">Start</a>
         <a href="rezept-1.html" class="link">Rezept des Tages</a>
         <a href="kontakt.html" class="link">Kontakt</a>
@@ -58,7 +58,7 @@
           praesentium quos in odio qui nulla, ipsum placeat cupiditate?
           Voluptatibus, accusamus nemo?
         </p>
-        <button class="openRecipeButton">
+        <button type="button" class="openRecipeButton" onclick="location.href = 'rezept-1';">
           <p class="buttonText">Rezept</p>
           <p class="buttonText">öffnen</p>
         </button>
@@ -121,6 +121,5 @@
     <footer class="footer"></footer>
 
     <script src="script.js"></script>
-    <script src="script3.js"></script>
   </body>
 </html>
